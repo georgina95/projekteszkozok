@@ -1,0 +1,2 @@
+# projekteszkozok
+Projekteszközök tárgy beadandó
