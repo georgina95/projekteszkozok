@@ -21,7 +21,10 @@ import java.sql.Date;
 public class State {
 
     @Id
+	@GeneratedValue
 	public int id;
+	
+	public int number;
 
 	@JoinColumn
 	@ManyToOne(targetEntity = User.class)
@@ -45,7 +48,7 @@ public class State {
 	
 	//@Id
 	@JoinColumn
-	@ManyToOne(targetEntity = User.class)
+	@ManyToOne(targetEntity = Report.class)
     public Report report;
 
 }
