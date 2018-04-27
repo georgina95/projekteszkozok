@@ -23,7 +23,7 @@ public class State {
 
     @Id
 	public int id;
-	
+
 	@JoinColumn
 	@ManyToOne(targetEntity = User.class)
     public User triggeredBy;
@@ -48,13 +48,8 @@ public class State {
 	@JoinColumn
 	@ManyToOne(targetEntity = User.class)
     public Report report;
-	
-	/*@Id
-	public int reportId;*/
+
 }
 
-public class Key {
-	public int id;
-	public Report report;
-	/*public int reportId;*/
-}
+
+

@@ -9,6 +9,7 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import java.List;
 
 @Data
 @NoArgsConstructor
@@ -18,11 +19,11 @@ public class User {
 
     @Id
 	public String nickname;
-	
+
 	public String name;
-	
+
 	public String email;
-	
+
 	public String phoneNumber;
 	
 	@Column
