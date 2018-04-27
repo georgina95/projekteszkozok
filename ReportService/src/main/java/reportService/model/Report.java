@@ -28,7 +28,7 @@ public class Report {
 	@GeneratedValue
 	public int id;
 	
-	public Date reportDate;
+	public String reportDate;
 	
 	@JoinColumn
 	@ManyToOne(targetEntity = User.class)

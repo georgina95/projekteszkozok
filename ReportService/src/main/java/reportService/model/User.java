@@ -20,6 +20,8 @@ import java.util.List;
 public class User {
 
     @Id
+	public int id;
+	
 	public String nickname;
 
 	public String name;

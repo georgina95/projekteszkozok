@@ -27,7 +27,7 @@ public class State {
 	@ManyToOne(targetEntity = User.class)
     public User triggeredBy;
 	
-	public Date stateDate;
+	public String stateDate;
 	
 	public String comment;
 	
