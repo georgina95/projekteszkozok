@@ -1,4 +1,4 @@
-package reportService.model;
+/*package reportService.model;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -13,4 +13,4 @@ public class Key {
     public Report getReport() {
         return report;
     }
-}
+}*/

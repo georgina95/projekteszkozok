@@ -18,7 +18,6 @@ import java.sql.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@IdClass(Key.class)
 public class State {
 
     @Id
@@ -44,7 +43,7 @@ public class State {
         OPEN, IN_PROGRESS, SOLVED, COMPLETED;
 	}
 	
-	@Id
+	//@Id
 	@JoinColumn
 	@ManyToOne(targetEntity = User.class)
     public Report report;

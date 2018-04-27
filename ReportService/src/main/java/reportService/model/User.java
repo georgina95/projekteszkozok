@@ -8,8 +8,10 @@ import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.Id;
+import javax.persistence.Column;
+import javax.persistence.CascadeType;
 import javax.persistence.OneToMany;
-import java.List;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -37,12 +39,24 @@ public class User {
 	@JsonIgnore
     @OneToMany(targetEntity = Report.class, 
                cascade = CascadeType.ALL, 
-               mappedBy = "user")
+               mappedBy = "reporter")
 	public List<Report> reports;
+	
+	@JsonIgnore
+    @OneToMany(targetEntity = Report.class, 
+               cascade = CascadeType.ALL, 
+               mappedBy = "operator")
+	public List<Report> reports2;
 	
 	@JsonIgnore
     @OneToMany(targetEntity = State.class, 
                cascade = CascadeType.ALL, 
-               mappedBy = "user")
+               mappedBy = "triggeredBy")
 	public List<State> states;
+	
+	@JsonIgnore
+    @OneToMany(targetEntity = State.class, 
+               cascade = CascadeType.ALL, 
+               mappedBy = "owner")
+	public List<State> states2;
 }
