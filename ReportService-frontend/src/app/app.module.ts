@@ -4,8 +4,9 @@ import { RouterModule, Routes }   from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+import { ReportBackendService } from './services/reportBackend.service';
+
 import { AppComponent } from './app.component';
-import { HomeComponent } from './containers/home/home.component';
 import { LoginComponent } from './containers/login/login.component';
 import { ReportComponent } from './containers/report/report.component';
 
@@ -13,10 +14,6 @@ const routes: Routes = [
     {
         path: '',
         component: AppComponent
-    },
-    {
-        path: 'home',
-        component: HomeComponent
     },
     {
         path: 'login',
@@ -30,7 +27,6 @@ const routes: Routes = [
 
 @NgModule({
     declarations: [
-        HomeComponent,
         LoginComponent,
         ReportComponent,
         AppComponent
@@ -41,7 +37,7 @@ const routes: Routes = [
         FormsModule,
         HttpClientModule
     ],
-    providers: [],
+    providers: [/*ReportBackendService*/],
     bootstrap: [AppComponent]
 })
 

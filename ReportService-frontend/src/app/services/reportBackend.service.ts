@@ -15,17 +15,51 @@ const httpOptions = {
 export class ReportBackendService {
     userFromJson(json) {
         return {
-        id: json['id'],
-        email: json['email'],
-        password: json['password'],
-        nickname: json['nickname'],
-        userType: json['userType'],
-        name: json['name'],
-        phoneNumber: json['phoneNumber'],
-        states: json['states']
+            nickname: json['nickname'],
+            password: json['password'],
+            name: json['name'],
+            email: json['email'],
+            phoneNumber: json['phoneNumber'],
+            userType: json['userType']
         }
     }
 
-    // get-post es tarsai, akar default beallitasok vendeg eseten, 
-    // ha akarjuk, de az maceras szerintem
+    user: User = {
+        nickname: "",
+        password: "", 
+        name: "",
+        email: "", 
+        phoneNumber: "",
+        userType: ""
+    };
+
+    /*init() {
+        this.isLoggedIn = false;
+        this.user = {
+            username: "Ismeretlen",
+            password: "",
+            email: "",
+            role: "",
+            fullName: "",
+            phoneNumber: "",
+            age: -1,
+            address: ""
+        };
+    }*/
+
+    // get-post es tarsai, akar default beallitasok vendeg eseten
+    /*login(user: User) {
+        this.get<string>(BASE_URL + 'user/login', user);
+        return this.post<User>(BASE_URL + 'user/login', user);
+    }
+
+    get<TResponse>(action: string, params: any) {
+        let url = action + '?' + Object.keys(params).map(key => key + '=' + params[key]).join('&');
+        return this.http.get<TResponse>(url);
+    }
+
+    post<TResponse>(action: string, params: any) {
+        let url = action + '?' + Object.keys(params).map(key => key + '=' + params[key]).join('&');
+        return this.http.post<TResponse>(url, {});
+    }*/
 }

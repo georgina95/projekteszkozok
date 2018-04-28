@@ -1,4 +1,5 @@
 import { Injectable, Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'login',
@@ -8,4 +9,6 @@ import { Injectable, Component, OnInit } from '@angular/core';
 
 export class LoginComponent implements OnInit {
     ngOnInit() { }
+
+    constructor() { }
 }

@@ -1,6 +1,6 @@
 import { Injectable, Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
-// import { ReportBackendService } from "./services/reportBackend.service";
+import { ReportBackendService } from "./services/reportBackend.service";
 
 @Component({
     selector: 'app-root',
@@ -22,6 +22,11 @@ export class AppComponent {
     login() {
         this.router.navigate(['/login']);
     }
+
+    /*logout() {
+        this.backendService.init();
+        this.router.navigate(['/login']);
+    }*/
 
     report() {
         this.router.navigate(['/report']);

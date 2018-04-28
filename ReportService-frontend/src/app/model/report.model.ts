@@ -1,13 +1,12 @@
 import { Data } from "@angular/router/src/config";
 
 export interface User {
-    id: number;
     nickname: string;
+    password: string;
     name: string;
     email: string;
     phoneNumber: string;
     userType: string;
-    [states: number]: { state: State };
 }
 
 export interface Report {
@@ -17,7 +16,6 @@ export interface Report {
     operator: User;
     status: string;
     report: Report;
-    [states: number]: { state: State };
 }
 
 export interface State {
