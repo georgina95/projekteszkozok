@@ -2,7 +2,7 @@ reportService\model\State$Status.class
 reportService\model\User.class
 reportService\model\State.class
 reportService\repository\UserRepository.class
-reportService\ReportService.class
+reportService\ReportServiceRun.class
 reportService\repository\ReportRepository.class
 reportService\model\Report.class
 reportService\model\User$UserType.class
