@@ -33,22 +33,20 @@ export class ReportBackendService {
         userType: ""
     };
 
-    /*init() {
-        this.isLoggedIn = false;
-        this.user = {
-            username: "Ismeretlen",
-            password: "",
-            email: "",
-            role: "",
-            fullName: "",
-            phoneNumber: "",
-            age: -1,
-            address: ""
-        };
-    }*/
+    constructor(private http: HttpClient) { }
 
-    // get-post es tarsai, akar default beallitasok vendeg eseten
-    /*login(user: User) {
+    init() {
+        this.user = {
+            nickname: "Ismeretlen",
+            password: "",
+            name: "",
+            email: "",
+            phoneNumber: "",
+            userType: ""
+        };
+    }
+
+    login(user: User) {
         this.get<string>(BASE_URL + 'user/login', user);
         return this.post<User>(BASE_URL + 'user/login', user);
     }
@@ -61,5 +59,5 @@ export class ReportBackendService {
     post<TResponse>(action: string, params: any) {
         let url = action + '?' + Object.keys(params).map(key => key + '=' + params[key]).join('&');
         return this.http.post<TResponse>(url, {});
-    }*/
+    }
 }

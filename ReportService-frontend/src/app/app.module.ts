@@ -37,7 +37,7 @@ const routes: Routes = [
         FormsModule,
         HttpClientModule
     ],
-    providers: [/*ReportBackendService*/],
+    providers: [ReportBackendService],
     bootstrap: [AppComponent]
 })
 
