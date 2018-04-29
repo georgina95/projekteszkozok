@@ -4,6 +4,7 @@ reportService\model\State.class
 reportService\repository\UserRepository.class
 reportService\service\ReportService.class
 reportService\ReportServiceRun.class
+reportService\service\UserService.class
 reportService\repository\ReportRepository.class
 reportService\model\Report.class
 reportService\model\User$UserType.class

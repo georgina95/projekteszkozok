@@ -21,6 +21,8 @@ public class User {
 
     @Id
 	public String nickname;
+	
+	public String password;
 
 	public String name;
 

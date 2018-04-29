@@ -10,6 +10,7 @@ import reportService.model.User;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, Integer>{
+	Optional<User> findByNickname(String nickname);
     Optional<User> findByName(String name);
     ArrayList<User> findAll();
 }

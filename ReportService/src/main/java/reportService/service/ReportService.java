@@ -28,8 +28,8 @@ public class ReportService {
             Report report = new Report();
 
             report.setReportDate(reportDate);
-            report.setReporter(userRepository.findByName(reporter).get());
-            report.setOperator(userRepository.findByName(operator).get());
+            report.setReporter(userRepository.findByNickname(reporter).get());
+            report.setOperator(userRepository.findByNickname(operator).get());
             report.setStatus(status);
 
             reportRepository.save(report);

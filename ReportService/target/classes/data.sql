@@ -1,7 +1,7 @@
-INSERT INTO user (nickname, name, email, phone_number, user_type) VALUES ('VBela67', 'Végh Béla', 'vegh.b@business.hu', '06909538546', 'USER');
-INSERT INTO user (nickname, name, email, phone_number, user_type) VALUES ('KJozsef78', 'Kalmár József', 'kalmar.j@business.hu', '06901742356', 'USER');
-INSERT INTO user (nickname, name, email, phone_number, user_type) VALUES ('BLaszlo93', 'Békés László', 'bekes.l@business.hu', '06901798626', 'OPERATOR');
-INSERT INTO user (nickname, name, email, phone_number, user_type) VALUES ('LPetra86', 'Lámpás Petra', 'lampas.p@business.hu', '06907334982', 'ADMIN');
+INSERT INTO user (nickname, password, name, email, phone_number, user_type) VALUES ('VBela67', '12345', 'Végh Béla', 'vegh.b@business.hu', '06909538546', 'USER');
+INSERT INTO user (nickname, password, name, email, phone_number, user_type) VALUES ('KJozsef78', '12345', 'Kalmár József', 'kalmar.j@business.hu', '06901742356', 'USER');
+INSERT INTO user (nickname, password, name, email, phone_number, user_type) VALUES ('BLaszlo93', '12345', 'Békés László', 'bekes.l@business.hu', '06901798626', 'OPERATOR');
+INSERT INTO user (nickname, password, name, email, phone_number, user_type) VALUES ('LPetra86', '12345', 'Lámpás Petra', 'lampas.p@business.hu', '06907334982', 'ADMIN');
 
 
 

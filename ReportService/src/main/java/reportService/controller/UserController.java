@@ -10,9 +10,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 import reportService.model.Report;
+import reportService.model.User;
 
 import reportService.service.UserSession;
-//import reportService.service.UserService;
+import reportService.service.UserService;
 import reportService.service.ReportService;
 //import reportService.service.StateService;
 import reportService.utility.Response;
@@ -25,8 +26,8 @@ import java.util.ArrayList;
 public class UserController {
 	@Autowired
 	UserSession session;
-    /*@Autowired
-    private UserService userService;*/
+    @Autowired
+    private UserService userService;
 	@Autowired
 	private ReportService reportService;
 	/*
@@ -34,14 +35,38 @@ public class UserController {
 	private StateService stateService;
 	*/
 	
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+    public Response<User> login(
+        @RequestParam(value = "nickname") String nickname,
+        @RequestParam(value = "password") String password
+    ) {
+        Optional<User> optionalUser = userService.login(nickname, password);
+
+        if (optionalUser.isPresent()) {
+			if(session.getUser() == null) {
+				User user = optionalUser.get();
+            
+				session.setUser(user);
+				return Response.ok(user);
+			}
+			return Response.error("Someone already logged in!");
+        }
+        return Response.error("Wrong nickname-password pair!");
+    }
+	
+	@RequestMapping("/logout")
+    public Response logout() {
+        session.setUser(null);
+        return Response.ok(false);
+	}
+	
 	@RequestMapping(value = "/report", method = RequestMethod.GET)
     public Response<Report> report(
         @RequestParam(value = "reportDate") String reportDate,
-        @RequestParam(value = "reporter") String reporter,
         @RequestParam(value = "operator") String operator,
         @RequestParam(value = "status") Report.Status status
     ) {
-        Optional<Report> optionalReport = reportService.report(reportDate, reporter, operator, status);
+        Optional<Report> optionalReport = reportService.report(reportDate, session.getUser().nickname, operator, status);
 
 		if(session.getUser() != null) {
 			Report report = optionalReport.get();
