@@ -1,4 +1,4 @@
-/*package reportService;
+package reportService.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,22 +21,22 @@ public class ReportService {
     @Autowired
     private UserRepository userRepository;
 
-    public Optional<Report> report(int id, String reportDate, String reporter, String operator, int state) {
-        Optional<Report> optionalReport = reportRepository.findById(id).get();
+    public Optional<Report> report(String reportDate, String reporter, String operator, Report.Status status) {
+        //Optional<Report> optionalReport = reportRepository.findById(id).get();
 
-        if(!optionalReport.isPreset()){
+        //if(!optionalReport.isPresent()){
             Report report = new Report();
 
             report.setReportDate(reportDate);
             report.setReporter(userRepository.findByName(reporter).get());
-            report.setOperatort(userRepository.findByName(operator).get());
-            report.setStatus(stateRepository.findById(state).get());
+            report.setOperator(userRepository.findByName(operator).get());
+            report.setStatus(status);
 
             reportRepository.save(report);
 
             return Optional.of(report);
-        }
-        return Optional.empty();
+        //}
+        //return Optional.empty();
     }
 
     public ArrayList<Report> getList(){
@@ -50,8 +50,8 @@ public class ReportService {
         if(optionalReport.isPresent()){
             return optionalReport;
         }
-        return Optional.empty;
+        return Optional.empty();
     }
 
     public void delete(int id) {reportRepository.delete(id);}
-}*/
+}
