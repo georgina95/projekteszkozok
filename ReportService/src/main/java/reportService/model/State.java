@@ -23,8 +23,6 @@ public class State {
     @Id
 	@GeneratedValue
 	public int id;
-	
-	public int number;
 
 	@JoinColumn
 	@ManyToOne(targetEntity = User.class)

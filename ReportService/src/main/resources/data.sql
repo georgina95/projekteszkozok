@@ -11,9 +11,9 @@ INSERT INTO report (id, report_date, reporter_nickname, operator_nickname, statu
 
 
 
-INSERT INTO state 	(id, number, triggered_by_nickname, state_date, comment, owner_nickname, status, report_id) VALUES 	(0,0, 'VBela67', '2017-10-20 09:00:00', 'Kiégett az izzó a 12. emeleti mosdóban.', 'VBela67', 'OPEN', 0);
-INSERT INTO state 	(id, number, triggered_by_nickname, state_date, comment, owner_nickname, status, report_id) VALUES 	(1,1, 'BLaszlo93', '2017-10-21 12:20:00', 'Felveszem a bejelentést, hamarosan beszerzem az új izzókat.', 'BLaszlo93', 'IN_PROGRESS', 0);
+INSERT INTO state 	(id, triggered_by_nickname, state_date, comment, owner_nickname, status, report_id) VALUES 	(0,0, 'VBela67', '2017-10-20 09:00:00', 'Kiégett az izzó a 12. emeleti mosdóban.', 'VBela67', 'OPEN', 0);
+INSERT INTO state 	(id, triggered_by_nickname, state_date, comment, owner_nickname, status, report_id) VALUES 	(1,1, 'BLaszlo93', '2017-10-21 12:20:00', 'Felveszem a bejelentést, hamarosan beszerzem az új izzókat.', 'BLaszlo93', 'IN_PROGRESS', 0);
 			
-INSERT INTO state 	(id, number, triggered_by_nickname, state_date, comment, owner_nickname, status, report_id) VALUES 	(2,0, 'BLaszlo93', '2017-07-02 16:00:00', 'Beletört a kulcs az irodám ajtajának zárjába. Sürgősen javítást kérek.', 'VBela67', 'OPEN', 1);
-INSERT INTO state 	(id, number, triggered_by_nickname, state_date, comment, owner_nickname, status, report_id) VALUES 	(3,1, 'BLaszlo93', '2017-07-02 16:30:00', 'Felveszem a bejelentést, két órán belül kicserélem a zárat.', 'BLaszlo93', 'IN_PROGRESS', 1);
-INSERT INTO state 	(id, number, triggered_by_nickname, state_date, comment, owner_nickname, status, report_id) VALUES 	(4,2, 'BLaszlo93', '2017-07-02 17:45:00', 'Kicseréltem a zárat, az új kulcsokat leadtam az iroda tulajdonosának.', 'BLaszlo93', 'SOLVED', 1);
+INSERT INTO state 	(id, triggered_by_nickname, state_date, comment, owner_nickname, status, report_id) VALUES 	(2,0, 'BLaszlo93', '2017-07-02 16:00:00', 'Beletört a kulcs az irodám ajtajának zárjába. Sürgősen javítást kérek.', 'VBela67', 'OPEN', 1);
+INSERT INTO state 	(id, triggered_by_nickname, state_date, comment, owner_nickname, status, report_id) VALUES 	(3,1, 'BLaszlo93', '2017-07-02 16:30:00', 'Felveszem a bejelentést, két órán belül kicserélem a zárat.', 'BLaszlo93', 'IN_PROGRESS', 1);
+INSERT INTO state 	(id, triggered_by_nickname, state_date, comment, owner_nickname, status, report_id) VALUES 	(4,2, 'BLaszlo93', '2017-07-02 17:45:00', 'Kicseréltem a zárat, az új kulcsokat leadtam az iroda tulajdonosának.', 'BLaszlo93', 'SOLVED', 1);

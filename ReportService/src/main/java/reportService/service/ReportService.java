@@ -29,7 +29,7 @@ public class ReportService {
 
             report.setReportDate(reportDate);
             report.setReporter(userRepository.findByNickname(reporter).get());
-            report.setOperator(userRepository.findByNickname(operator).get());
+            report.setOperator(null);
             report.setStatus(status);
 
             reportRepository.save(report);

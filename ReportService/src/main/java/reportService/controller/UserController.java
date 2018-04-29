@@ -18,6 +18,7 @@ import reportService.service.ReportService;
 //import reportService.service.StateService;
 import reportService.utility.Response;
 
+import java.text.SimpleDateFormat;
 import java.util.Optional;
 import java.util.ArrayList;
 
@@ -60,14 +61,16 @@ public class UserController {
         return Response.ok(false);
 	}
 	
-	@RequestMapping(value = "/report", method = RequestMethod.GET)
+	@RequestMapping(value = "/report"/*, method = RequestMethod.GET*/)
     public Response<Report> report(
-        @RequestParam(value = "reportDate") String reportDate,
-        @RequestParam(value = "operator") String operator,
-        @RequestParam(value = "status") Report.Status status
     ) {
-        Optional<Report> optionalReport = reportService.report(reportDate, session.getUser().nickname, operator, status);
-
+		SimpleDateFormat formDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		java.util.Date utilDate = new java.util.Date();
+		java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());
+        String reportDate = formDate.format(sqlDate);
+		
+        Optional<Report> optionalReport = reportService.report(reportDate, session.getUser().nickname, "", Report.Status.OPEN);
+		
 		if(session.getUser() != null) {
 			Report report = optionalReport.get();
 			

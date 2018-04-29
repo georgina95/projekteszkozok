@@ -16,8 +16,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.GeneratedValue;
 import java.util.List;
 
-import java.sql.Date;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
