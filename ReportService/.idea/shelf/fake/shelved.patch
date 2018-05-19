@@ -1,0 +1,773 @@
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/uiDesigner.xml	(date 1526752181868)
++++ .idea/uiDesigner.xml	(date 1526752181868)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n\txsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n\t<modelVersion>4.0.0</modelVersion>\r\n\r\n\t<groupId>edu.elte</groupId>\r\n\t<artifactId>reportService</artifactId>\r\n\t<version>0.0.1-SNAPSHOT</version>\r\n\t<packaging>jar</packaging>\r\n\r\n\t<name>reportService</name>\r\n\t<description>Demo project for Spring Boot</description>\r\n\r\n\t<parent>\r\n\t\t<groupId>org.springframework.boot</groupId>\r\n\t\t<artifactId>spring-boot-starter-parent</artifactId>\r\n\t\t<version>1.5.7.RELEASE</version>\r\n\t\t<relativePath/> <!-- lookup parent from repository -->\r\n\t</parent>\r\n\r\n\t<properties>\r\n\t\t<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n\t\t<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>\r\n\t\t<java.version>1.8</java.version>\r\n\t</properties>\r\n\r\n\t<dependencies>\r\n\t\t<dependency>\r\n\t\t\t<groupId>org.springframework.boot</groupId>\r\n\t\t\t<artifactId>spring-boot-starter-data-jpa</artifactId>\r\n\t\t</dependency>\r\n\t\t<dependency>\r\n\t\t\t<groupId>org.springframework.boot</groupId>\r\n\t\t\t<artifactId>spring-boot-starter-thymeleaf</artifactId>\r\n\t\t</dependency>\r\n\r\n\t\t<dependency>\r\n\t\t\t<groupId>com.h2database</groupId>\r\n\t\t\t<artifactId>h2</artifactId>\r\n\t\t\t<scope>runtime</scope>\r\n\t\t</dependency>\r\n\t\t<dependency>\r\n\t\t\t<groupId>org.springframework.boot</groupId>\r\n\t\t\t<artifactId>spring-boot-starter-test</artifactId>\r\n\t\t\t<scope>test</scope>\r\n\t\t</dependency>\r\n\t\t<dependency>\r\n\t\t\t<groupId>org.projectlombok</groupId>\r\n\t\t\t<artifactId>lombok</artifactId>\r\n\t\t\t<optional>true</optional>\r\n\t\t</dependency>\r\n\t\t<dependency>\r\n\t\t\t<groupId>org.springframework.boot</groupId>\r\n\t\t\t<artifactId>spring-boot-starter-web</artifactId>\r\n\t\t</dependency>\r\n\t</dependencies>\r\n\r\n\t<build>\r\n\t\t<plugins>\r\n\t\t\t<plugin>\r\n\t\t\t\t<groupId>org.springframework.boot</groupId>\r\n\t\t\t\t<artifactId>spring-boot-maven-plugin</artifactId>\r\n\t\t\t</plugin>\r\n\t\t</plugins>\r\n\t</build>\r\n\r\n\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(revision eac7e964bc7d5edd2ee321444bf37f7ca6704d7a)
++++ pom.xml	(date 1526745997010)
+@@ -25,6 +25,15 @@
+ 	</properties>
+ 
+ 	<dependencies>
++
++		<!-- https://mvnrepository.com/artifact/junit/junit -->
++		<dependency>
++			<groupId>junit</groupId>
++			<artifactId>junit</artifactId>
++			<version>4.12</version>
++			<scope>test</scope>
++		</dependency>
++
+ 		<dependency>
+ 			<groupId>org.springframework.boot</groupId>
+ 			<artifactId>spring-boot-starter-data-jpa</artifactId>
+@@ -52,6 +61,28 @@
+ 		<dependency>
+ 			<groupId>org.springframework.boot</groupId>
+ 			<artifactId>spring-boot-starter-web</artifactId>
++		</dependency><dependency>
++		<groupId>org.junit.jupiter</groupId>
++		<artifactId>junit-jupiter-api</artifactId>
++		<version>RELEASE</version>
++		<scope>compile</scope>
++
++
++
++	</dependency>
++		<dependency>
++			<groupId>junit</groupId>
++			<artifactId>junit</artifactId>
++			<version>4.12</version>
++	    	<scope>test</scope>
++		</dependency>
++
++		<!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
++		<dependency>
++			<groupId>org.mockito</groupId>
++			<artifactId>mockito-all</artifactId>
++			<version>1.9.5</version>
++			<scope>test</scope>
+ 		</dependency>
+ 	</dependencies>
+ 
+Index: src/main/java/reportService/controller/UserController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package reportService.controller;\n\nimport org.springframework.web.bind.annotation.RestController;\nimport org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.web.bind.annotation.RequestMapping;\nimport org.springframework.web.bind.annotation.RequestParam;\nimport org.springframework.web.bind.annotation.PathVariable;\nimport org.springframework.web.bind.annotation.RequestMethod;\nimport org.springframework.web.bind.annotation.GetMapping;\nimport org.springframework.web.bind.annotation.CrossOrigin;\n\nimport reportService.model.Report;\nimport reportService.model.User;\n\nimport reportService.service.UserSession;\nimport reportService.service.UserService;\nimport reportService.service.ReportService;\n//import reportService.service.StateService;\nimport reportService.utility.Response;\n\nimport java.text.SimpleDateFormat;\nimport java.util.Optional;\nimport java.util.ArrayList;\n\n@RestController\n@RequestMapping(\"/api\")\npublic class UserController {\n\t@Autowired\n\tUserSession session;\n    @Autowired\n    private UserService userService;\n\t@Autowired\n\tprivate ReportService reportService;\n\t/*\n\t@Autowired\n\tprivate StateService stateService;\n\t*/\n\t\n\t@RequestMapping(value = \"/login\", method = RequestMethod.GET)\n    public Response<User> login(\n        @RequestParam(value = \"nickname\") String nickname,\n        @RequestParam(value = \"password\") String password\n    ) {\n        Optional<User> optionalUser = userService.login(nickname, password);\n\n        if (optionalUser.isPresent()) {\n\t\t\tif(session.getUser() == null) {\n\t\t\t\tUser user = optionalUser.get();\n            \n\t\t\t\tsession.setUser(user);\n\t\t\t\treturn Response.ok(user);\n\t\t\t}\n\t\t\treturn Response.error(\"Someone already logged in!\");\n        }\n        return Response.error(\"Wrong nickname-password pair!\");\n    }\n\t\n\t@RequestMapping(\"/logout\")\n    public Response logout() {\n        session.setUser(null);\n        return Response.ok(false);\n\t}\n\t\n\t@RequestMapping(value = \"/report\"/*, method = RequestMethod.GET*/)\n    public Response<Report> report(\n    ) {\n\t\tSimpleDateFormat formDate = new SimpleDateFormat(\"yyyy-MM-dd HH:mm:ss\");\n\t\tjava.util.Date utilDate = new java.util.Date();\n\t\tjava.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());\n        String reportDate = formDate.format(sqlDate);\n\t\t\n        Optional<Report> optionalReport = reportService.report(reportDate, session.getUser().nickname, \"\", Report.Status.OPEN);\n\t\t\n\t\tif(session.getUser() != null) {\n\t\t\tReport report = optionalReport.get();\n\t\t\t\n\t\t\treturn Response.ok(report);\n\t\t}\n\t\treturn Response.error(\"You are not logged in!\");\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/reportService/controller/UserController.java	(revision eac7e964bc7d5edd2ee321444bf37f7ca6704d7a)
++++ src/main/java/reportService/controller/UserController.java	(date 1526752992958)
+@@ -1,81 +1,87 @@
+ package reportService.controller;
+ 
+-import org.springframework.web.bind.annotation.RestController;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.bind.annotation.RequestMethod;
+ import org.springframework.web.bind.annotation.RequestParam;
+-import org.springframework.web.bind.annotation.PathVariable;
+-import org.springframework.web.bind.annotation.RequestMethod;
+-import org.springframework.web.bind.annotation.GetMapping;
+-import org.springframework.web.bind.annotation.CrossOrigin;
+-
++import org.springframework.web.bind.annotation.RestController;
+ import reportService.model.Report;
+ import reportService.model.User;
+-
+-import reportService.service.UserSession;
++import reportService.service.ReportService;
+ import reportService.service.UserService;
+-import reportService.service.ReportService;
+-//import reportService.service.StateService;
++import reportService.service.UserSession;
+ import reportService.utility.Response;
+ 
+ import java.text.SimpleDateFormat;
++import java.util.Date;
+ import java.util.Optional;
+-import java.util.ArrayList;
++
++//import reportService.service.StateService;
+ 
+ @RestController
+ @RequestMapping("/api")
+ public class UserController {
+-	@Autowired
+-	UserSession session;
++    public static final String SOMEONE_ALREADY_LOGGED_IN = "Someone already logged in!";
++    public static final String WRONG_NICKNAME_PASSWORD_PAIR = "Wrong nickname-password pair!";
++    public static final String REPORT_IS_NULL = "Repor is null!";
++    public static final String EMPTY_STRING = "";
++    public static final String YOU_ARE_NOT_LOGGED_IN = "You are not logged in!";
++    @Autowired
++    UserSession session;
+     @Autowired
+     private UserService userService;
+-	@Autowired
+-	private ReportService reportService;
++    @Autowired
++    private ReportService reportService;
+ 	/*
+ 	@Autowired
+ 	private StateService stateService;
+ 	*/
+-	
+-	@RequestMapping(value = "/login", method = RequestMethod.GET)
++
++    @RequestMapping(value = "/login", method = RequestMethod.GET)
+     public Response<User> login(
+-        @RequestParam(value = "nickname") String nickname,
+-        @RequestParam(value = "password") String password
++            @RequestParam(value = "nickname") String nickname,
++            @RequestParam(value = "password") String password
+     ) {
+         Optional<User> optionalUser = userService.login(nickname, password);
+ 
+         if (optionalUser.isPresent()) {
+-			if(session.getUser() == null) {
+-				User user = optionalUser.get();
+-            
+-				session.setUser(user);
+-				return Response.ok(user);
+-			}
+-			return Response.error("Someone already logged in!");
++            if (session.getUser() == null) {
++                User user = optionalUser.get();
++
++                session.setUser(user);
++                return Response.ok(user);
++            }
++            return Response.error(SOMEONE_ALREADY_LOGGED_IN);
+         }
+-        return Response.error("Wrong nickname-password pair!");
++        return Response.error(WRONG_NICKNAME_PASSWORD_PAIR);
+     }
+-	
+-	@RequestMapping("/logout")
++
++    @RequestMapping("/logout")
+     public Response logout() {
+         session.setUser(null);
+         return Response.ok(false);
+-	}
+-	
+-	@RequestMapping(value = "/report"/*, method = RequestMethod.GET*/)
+-    public Response<Report> report(
+-    ) {
+-		SimpleDateFormat formDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+-		java.util.Date utilDate = new java.util.Date();
+-		java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());
++    }
++
++    @RequestMapping(value = "/report"/*, method = RequestMethod.GET*/)
++    public Response<Report> report() {
++        SimpleDateFormat formDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
++        Date utilDate = new Date();
++        java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());
+         String reportDate = formDate.format(sqlDate);
+-		
+-        Optional<Report> optionalReport = reportService.report(reportDate, session.getUser().nickname, "", Report.Status.OPEN);
+-		
+-		if(session.getUser() != null) {
+-			Report report = optionalReport.get();
+-			
+-			return Response.ok(report);
+-		}
+-		return Response.error("You are not logged in!");
++
++        if (session.getUser() != null) {
++            Optional<Report> optionalReport = reportService.report
++                    (reportDate, session.getUser().getNickname(), EMPTY_STRING, Report.Status.OPEN);
++
++
++            if (optionalReport.isPresent()) {
++                Report report = optionalReport.get();
++                return Response.ok(report);
++            }
++            return Response.error(REPORT_IS_NULL);
++
++
++        }
++        return Response.error(YOU_ARE_NOT_LOGGED_IN);
+     }
+ }
+\ No newline at end of file
+Index: src/main/java/reportService/utility/Response.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package reportService.utility;\n\nimport lombok.Data;\nimport lombok.AllArgsConstructor;\n\n@Data\n@AllArgsConstructor\npublic class Response<T> {\n\n    private String error;\n    private T data;\n\n    public static <T> Response<T> ok(T data) {\n        return new Response<T>(null, data);\n    }\n\n    public static <T> Response<T> error(String message) {\n        return new Response<T>(message, null);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/reportService/utility/Response.java	(revision eac7e964bc7d5edd2ee321444bf37f7ca6704d7a)
++++ src/main/java/reportService/utility/Response.java	(date 1526753835689)
+@@ -1,15 +1,19 @@
+ package reportService.utility;
+ 
+ import lombok.Data;
+-import lombok.AllArgsConstructor;
+ 
+ @Data
+-@AllArgsConstructor
+ public class Response<T> {
+ 
+     private String error;
+     private T data;
+ 
++    public Response(String error, T data) {
++        this.error = error;
++        this.data = data;
++
++    }
++
+     public static <T> Response<T> ok(T data) {
+         return new Response<T>(null, data);
+     }
+@@ -17,4 +21,21 @@
+     public static <T> Response<T> error(String message) {
+         return new Response<T>(message, null);
+     }
++
++
++    public String getError() {
++        return error;
++    }
++
++    public void setError(String error) {
++        this.error = error;
++    }
++
++    public T getData() {
++        return data;
++    }
++
++    public void setData(T data) {
++        this.data = data;
++    }
+ }
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(date 1526753359000)
++++ .gitignore	(date 1526753359000)
+@@ -0,0 +1,108 @@
++
++# Created by https://www.gitignore.io/api/java,maven,intellij
++
++### Intellij ###
++# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
++# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
++
++# User-specific stuff:
++.idea/**/workspace.xml
++.idea/**/tasks.xml
++.idea/dictionaries
++
++# Sensitive or high-churn files:
++.idea/**/dataSources/
++.idea/**/dataSources.ids
++.idea/**/dataSources.xml
++.idea/**/dataSources.local.xml
++.idea/**/sqlDataSources.xml
++.idea/**/dynamic.xml
++.idea/**/uiDesigner.xml
++
++# Gradle:
++.idea/**/gradle.xml
++.idea/**/libraries
++
++# CMake
++cmake-build-debug/
++
++# Mongo Explorer plugin:
++.idea/**/mongoSettings.xml
++
++## File-based project format:
++*.iws
++
++## Plugin-specific files:
++
++# IntelliJ
++/out/
++
++# mpeltonen/sbt-idea plugin
++.idea_modules/
++
++# JIRA plugin
++atlassian-ide-plugin.xml
++
++# Cursive Clojure plugin
++.idea/replstate.xml
++
++# Ruby plugin and RubyMine
++/.rakeTasks
++
++# Crashlytics plugin (for Android Studio and IntelliJ)
++com_crashlytics_export_strings.xml
++crashlytics.properties
++crashlytics-build.properties
++fabric.properties
++
++### Intellij Patch ###
++# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
++
++# *.iml
++# modules.xml
++# .idea/misc.xml
++# *.ipr
++
++# Sonarlint plugin
++.idea/sonarlint
++
++### Java ###
++# Compiled class file
++*.class
++
++# Log file
++*.log
++
++# BlueJ files
++*.ctxt
++
++# Mobile Tools for Java (J2ME)
++.mtj.tmp/
++
++# Package Files #
++*.jar
++*.war
++*.ear
++*.zip
++*.tar.gz
++*.rar
++
++# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
++hs_err_pid*
++
++### Maven ###
++target/
++pom.xml.tag
++pom.xml.releaseBackup
++pom.xml.versionsBackup
++pom.xml.next
++release.properties
++dependency-reduced-pom.xml
++buildNumber.properties
++.mvn/timing.properties
++
++# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
++!/.mvn/wrapper/maven-wrapper.jar
++
++
++# End of https://www.gitignore.io/api/java,maven,intellij
+\ No newline at end of file
+Index: src/main/java/reportService/service/UserSession.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package reportService.service;\n\nimport reportService.model.User;\nimport lombok.Data;\nimport org.springframework.stereotype.Service;\nimport org.springframework.web.context.annotation.SessionScope;\n\n@Data\n@Service\n@SessionScope\npublic class UserSession {\n    private User user;\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/reportService/service/UserSession.java	(revision eac7e964bc7d5edd2ee321444bf37f7ca6704d7a)
++++ src/main/java/reportService/service/UserSession.java	(date 1526746044726)
+@@ -1,5 +1,6 @@
+ package reportService.service;
+ 
++import lombok.Getter;
+ import reportService.model.User;
+ import lombok.Data;
+ import org.springframework.stereotype.Service;
+@@ -7,7 +8,16 @@
+ 
+ @Data
+ @Service
++@Getter
+ @SessionScope
+ public class UserSession {
+     private User user;
++
++    public User getUser() {
++        return user;
++    }
++
++    public void setUser(User user) {
++        this.user = user;
++    }
+ }
+\ No newline at end of file
+Index: src/test/reportService/controller/UserControllerTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/reportService/controller/UserControllerTest.java	(date 1526753865973)
++++ src/test/reportService/controller/UserControllerTest.java	(date 1526753865973)
+@@ -0,0 +1,162 @@
++package reportService.controller;
++
++import org.junit.Test;
++import org.junit.runner.RunWith;
++import org.mockito.InjectMocks;
++import org.mockito.Mock;
++import org.mockito.runners.MockitoJUnitRunner;
++import reportService.model.Report;
++import reportService.model.User;
++import reportService.service.ReportService;
++import reportService.service.UserService;
++import reportService.service.UserSession;
++import reportService.utility.Response;
++
++import java.util.Optional;
++
++import static org.junit.Assert.assertEquals;
++import static org.mockito.Matchers.any;
++import static org.mockito.Matchers.eq;
++import static org.mockito.Mockito.verify;
++import static org.mockito.Mockito.when;
++import static reportService.controller.UserController.*;
++
++@RunWith(MockitoJUnitRunner.class)
++public class UserControllerTest {
++
++    @Mock
++    private UserSession session;
++
++    @Mock
++    private UserService userService;
++
++    @Mock
++    private User user;
++
++    @Mock
++    private ReportService reportService;
++
++    @Mock
++    private Report report;
++
++    @InjectMocks
++    private UserController sut;
++
++
++    @Test
++    public void login_someOne_alreay_logged() {
++        //fixture
++        String nickName = "asd";
++        String password = "pass";
++
++        when(userService.login(nickName, password)).thenReturn(Optional.of(user));
++        when(session.getUser()).thenReturn(user);
++
++        //excercise
++        Response result = sut.login(nickName, password);
++
++        // verify
++        assertEquals(SOMEONE_ALREADY_LOGGED_IN, result.getError());
++
++    }
++
++    @Test
++    public void login() {
++        //fixture
++        String nickName = "asd";
++        String password = "pass";
++
++        when(userService.login(nickName, password)).thenReturn(Optional.of(user));
++        when(session.getUser()).thenReturn(null);
++
++        //excercise
++        Response result = sut.login(nickName, password);
++
++        // verify
++        verify(session).setUser(user);
++        assertEquals(user, result.getData());
++
++    }
++
++    @Test
++    public void login_wrong_login_data() {
++        //fixture
++        String nickName = "asd";
++        String password = "pass";
++
++        when(userService.login(nickName, password)).thenReturn(Optional.empty());
++
++        //excercise
++        Response result = sut.login(nickName, password);
++
++        // verify
++        assertEquals(WRONG_NICKNAME_PASSWORD_PAIR, result.getError());
++
++    }
++
++    @Test
++    public void logout() {
++        // excercise
++        Response result = sut.logout();
++
++        // verify
++        verify(session).setUser(eq(null));
++        assertEquals(false, result.getData());
++    }
++
++    @Test
++    public void report() {
++        //fixture
++        String nickName = "asd";
++        String operator = UserController.EMPTY_STRING;
++
++        when(session.getUser()).thenReturn(user);
++        when(user.getNickname()).thenReturn(nickName);
++
++        when(reportService.report(
++                any(String.class),
++                eq(nickName),
++                eq(operator),
++                eq(Report.Status.OPEN)))
++                .thenReturn(Optional.of(report));
++
++        //excercise
++        Response<Report> result = sut.report();
++
++        //verify
++        assertEquals(report, result.getData());
++    }
++    @Test
++    public void report_is_null() {
++        //fixture
++        String nickName = "asd";
++        String operator = UserController.EMPTY_STRING;
++
++        when(session.getUser()).thenReturn(user);
++        when(user.getNickname()).thenReturn(nickName);
++
++        when(reportService.report(
++                any(String.class),
++                eq(nickName),
++                eq(operator),
++                eq(Report.Status.OPEN)))
++                .thenReturn(Optional.empty());
++
++        //excercise
++        Response<Report> result = sut.report();
++
++        //verify
++        assertEquals(REPORT_IS_NULL, result.getError());
++    }
++    @Test
++    public void report_user_is_null() {
++        //fixture
++        when(session.getUser()).thenReturn(null);
++
++        //excercise
++        Response<Report> result = sut.report();
++
++        //verify
++        assertEquals(YOU_ARE_NOT_LOGGED_IN  , result.getError());
++    }
++}
+\ No newline at end of file
+Index: src/main/java/reportService/model/User.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package reportService.model;\r\n\r\nimport com.fasterxml.jackson.annotation.JsonIgnore;\r\nimport lombok.Data;\r\nimport lombok.NoArgsConstructor;\r\nimport lombok.AllArgsConstructor;\r\nimport javax.persistence.Entity;\r\nimport javax.persistence.EnumType;\r\nimport javax.persistence.Enumerated;\r\nimport javax.persistence.Id;\r\nimport javax.persistence.Column;\r\nimport javax.persistence.CascadeType;\r\nimport javax.persistence.OneToMany;\r\nimport java.util.List;\r\n\r\n@Data\r\n@NoArgsConstructor\r\n@AllArgsConstructor\r\n@Entity\r\npublic class User {\r\n\r\n    @Id\r\n\tpublic String nickname;\r\n\t\r\n\tpublic String password;\r\n\r\n\tpublic String name;\r\n\r\n\tpublic String email;\r\n\r\n\tpublic String phoneNumber;\r\n\t\r\n\t@Column\r\n    @Enumerated(EnumType.STRING)\r\n    private UserType userType;\r\n    \r\n    public enum UserType {\r\n        USER, OPERATOR, ADMIN;\r\n\t}\r\n\t\r\n\t@JsonIgnore\r\n    @OneToMany(targetEntity = Report.class, \r\n               cascade = CascadeType.ALL, \r\n               mappedBy = \"reporter\")\r\n\tpublic List<Report> reports;\r\n\t\r\n\t@JsonIgnore\r\n    @OneToMany(targetEntity = Report.class, \r\n               cascade = CascadeType.ALL, \r\n               mappedBy = \"operator\")\r\n\tpublic List<Report> reports2;\r\n\t\r\n\t@JsonIgnore\r\n    @OneToMany(targetEntity = State.class, \r\n               cascade = CascadeType.ALL, \r\n               mappedBy = \"triggeredBy\")\r\n\tpublic List<State> states;\r\n\t\r\n\t@JsonIgnore\r\n    @OneToMany(targetEntity = State.class, \r\n               cascade = CascadeType.ALL, \r\n               mappedBy = \"owner\")\r\n\tpublic List<State> states2;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/reportService/model/User.java	(revision eac7e964bc7d5edd2ee321444bf37f7ca6704d7a)
++++ src/main/java/reportService/model/User.java	(date 1526752182044)
+@@ -61,4 +61,12 @@
+                cascade = CascadeType.ALL, 
+                mappedBy = "owner")
+ 	public List<State> states2;
++
++	public String getNickname() {
++		return nickname;
++	}
++
++	public void setNickname(String nickname) {
++		this.nickname = nickname;
++	}
+ }
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1526745984291)
++++ .idea/vcs.xml	(date 1526745984291)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/main/java/reportService/model/State.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package reportService.model;\r\n\r\nimport lombok.Data;\r\nimport lombok.NoArgsConstructor;\r\nimport lombok.AllArgsConstructor;\r\nimport javax.persistence.Entity;\r\nimport javax.persistence.EnumType;\r\nimport javax.persistence.Enumerated;\r\nimport javax.persistence.Id;\r\nimport javax.persistence.Column;\r\nimport javax.persistence.JoinColumn;\r\nimport javax.persistence.ManyToOne;\r\nimport javax.persistence.GeneratedValue;\r\n\r\nimport java.sql.Date;\r\n\r\n@Data\r\n@NoArgsConstructor\r\n@AllArgsConstructor\r\n@Entity\r\npublic class State {\r\n\r\n    @Id\r\n\t@GeneratedValue\r\n\tpublic int id;\r\n\r\n\t@JoinColumn\r\n\t@ManyToOne(targetEntity = User.class)\r\n    public User triggeredBy;\r\n\t\r\n\tpublic String stateDate;\r\n\t\r\n\tpublic String comment;\r\n\t\r\n\t@JoinColumn\r\n\t@ManyToOne(targetEntity = User.class)\r\n    public User owner;\r\n\t\r\n\t@Column\r\n    @Enumerated(EnumType.STRING)\r\n    private Status status;\r\n    \r\n    public enum Status {\r\n        OPEN, IN_PROGRESS, SOLVED, COMPLETED;\r\n\t}\r\n\t\r\n\t//@Id\r\n\t@JoinColumn\r\n\t@ManyToOne(targetEntity = Report.class)\r\n    public Report report;\r\n\r\n}\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/reportService/model/State.java	(revision eac7e964bc7d5edd2ee321444bf37f7ca6704d7a)
++++ src/main/java/reportService/model/State.java	(date 1526745298817)
+@@ -1,18 +1,10 @@
+ package reportService.model;
+ 
++import lombok.AllArgsConstructor;
+ import lombok.Data;
+ import lombok.NoArgsConstructor;
+-import lombok.AllArgsConstructor;
+-import javax.persistence.Entity;
+-import javax.persistence.EnumType;
+-import javax.persistence.Enumerated;
+-import javax.persistence.Id;
+-import javax.persistence.Column;
+-import javax.persistence.JoinColumn;
+-import javax.persistence.ManyToOne;
+-import javax.persistence.GeneratedValue;
+ 
+-import java.sql.Date;
++import javax.persistence.*;
+ 
+ @Data
+ @NoArgsConstructor

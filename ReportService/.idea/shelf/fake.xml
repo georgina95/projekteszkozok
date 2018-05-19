@@ -1,0 +1,84 @@
+<changelist name="fake" date="1526754322365" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/fake/shelved.patch" />
+  <option name="DESCRIPTION" value="fake" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/controller/UserController.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/controller/UserController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/UserController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/model/Report$Status.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/model/Report$Status.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/Report$Status.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/model/Report.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/model/Report.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/Report.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/model/State$Status.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/model/State$Status.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/State$Status.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/model/State.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/model/State.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/State.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/model/User$UserType.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/model/User$UserType.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/User$UserType.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/model/User.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/model/User.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/User.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/repository/ReportRepository.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/repository/ReportRepository.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/ReportRepository.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/repository/StateRepository.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/repository/StateRepository.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/StateRepository.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/repository/UserRepository.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/repository/UserRepository.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/UserRepository.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/service/ReportService.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/service/ReportService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/ReportService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/service/UserService.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/service/UserService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/UserService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/service/UserSession.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/service/UserSession.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/UserSession.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/utility/Response.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/utility/Response.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/Response.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/reportService/ReportServiceRun.class" />
+    <option name="AFTER_PATH" value="target/classes/reportService/ReportServiceRun.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/ReportServiceRun.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <option name="AFTER_PATH" value="target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/fake/inputFiles.lst" />
+  </binary>
+</changelist>
