@@ -61,4 +61,12 @@ public class User {
                cascade = CascadeType.ALL, 
                mappedBy = "owner")
 	public List<State> states2;
+
+	public String getNickname() {
+		return nickname;
+	}
+
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
+	}
 }
